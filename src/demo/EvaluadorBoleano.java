@@ -2,7 +2,11 @@ package demo;
 
 public class EvaluadorBoleano {
 	    
-	public boolean eval(String s) {
-	        return true;
+	  public boolean eval(String expresion) {
+	        if( "verdadero".equals(expresion)) {
+	            return true;
+	        } else {
+	            return false;
+	        }
 	    }
 }
